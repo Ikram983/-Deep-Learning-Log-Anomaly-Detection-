@@ -1,0 +1,38 @@
+{
+  "HDFS_autoencoder": {
+    "error": "'int' object is not subscriptable"
+  },
+  "HDFS_lstm": {
+    "error": "'numpy.ndarray' object has no attribute 'get'"
+  },
+  "HDFS_cnn": {
+    "error": "'numpy.ndarray' object has no attribute 'get'"
+  },
+  "HDFS_bilstm_attention": {
+    "error": "'numpy.ndarray' object has no attribute 'get'"
+  },
+  "BGL_autoencoder": {
+    "error": "'int' object is not subscriptable"
+  },
+  "BGL_lstm": {
+    "error": "'numpy.ndarray' object has no attribute 'get'"
+  },
+  "BGL_cnn": {
+    "error": "'numpy.ndarray' object has no attribute 'get'"
+  },
+  "BGL_bilstm_attention": {
+    "error": "'numpy.ndarray' object has no attribute 'get'"
+  },
+  "Thunderbird_autoencoder": {
+    "error": "'int' object is not subscriptable"
+  },
+  "Thunderbird_lstm": {
+    "error": "'numpy.ndarray' object has no attribute 'get'"
+  },
+  "Thunderbird_cnn": {
+    "error": "'numpy.ndarray' object has no attribute 'get'"
+  },
+  "Thunderbird_bilstm_attention": {
+    "error": "'numpy.ndarray' object has no attribute 'get'"
+  }
+}

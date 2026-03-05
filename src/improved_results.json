@@ -1,0 +1,300 @@
+{
+  "dataset_stats": {
+    "BGL": {
+      "total_samples": 1367,
+      "anomaly_count": 0,
+      "anomaly_ratio": 0.0,
+      "avg_log_length": 43.179956108266275,
+      "common_patterns": {
+        "instruction cache parity error corrected": 1,
+        "iar 003a9260 dear 012924f8": 1,
+        "iar 003a92a0 dear 012902f8": 1,
+        "iar 003a92a0 dear 013611f8": 1,
+        "iar 003a929c dear 01291708": 1,
+        "iar 003a929c dear 01291228": 1,
+        "773760 double-hummer alignment exceptions": 1,
+        "iar 003a9260 dear 01290878": 1,
+        "iar 003a9260 dear 0128fc88": 1,
+        "iar 003a9260 dear 0128f2f8": 1
+      }
+    },
+    "HDFS": {
+      "total_samples": 2000,
+      "anomaly_count": 0,
+      "anomaly_ratio": 0.0,
+      "avg_log_length": 95.4265,
+      "common_patterns": {
+        "PacketResponder 1 for block blk_38865049064139660 terminating": 1,
+        "BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.251.203.166:50010 is added to blk_-2332150303475653460 size 67108864": 1,
+        "Receiving block blk_345577139488306634 src: /10.251.37.240:38873 dest: /10.251.37.240:50010": 1,
+        "PacketResponder 2 for block blk_-3363550789841756902 terminating": 1,
+        "PacketResponder 1 for block blk_4178945095089206682 terminating": 1,
+        "Received block blk_-3607860197409267245 of size 28503188 from /10.251.31.180": 1,
+        "Receiving block blk_-7350482598011027441 src: /10.250.7.96:41476 dest: /10.250.7.96:50010": 1,
+        "PacketResponder 0 for block blk_-7778922135767840250 terminating": 1,
+        "Receiving block blk_-2313277713021896570 src: /10.251.123.195:58823 dest: /10.251.123.195:50010": 1,
+        "BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.251.31.5:50010 is added to blk_5813361416484537967 size 67108864": 1
+      }
+    },
+    "Thunderbird": {
+      "total_samples": 339,
+      "anomaly_count": 0,
+      "anomaly_ratio": 0.0,
+      "avg_log_length": 122.2330383480826,
+      "common_patterns": {
+        "session closed for user root": 1,
+        "LSI Logic MegaRAID driver": 1,
+        "i8042 KBD port at 0x60,0x64 irq 1": 1,
+        "i8042 AUX port at 0x60,0x64 irq 12": 1,
+        "Registering secondary module capability": 1,
+        "sda1 sda2 sda3 sda4": 1,
+        "assuming drive cache: write through": 1,
+        "asking for cache data failed": 1,
+        "scanning scsi channel 1 [virtual] for logical drives": 1,
+        "scanning scsi channel 0 [Phy 0] for non-raid devices": 1
+      }
+    }
+  },
+  "model_results": {
+    "BGL_autoencoder": {
+      "error": "name 'precision' is not defined",
+      "accuracy": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "f2": 0,
+      "roc_auc": 0.5,
+      "pr_auc": 0.5,
+      "confusion_matrix": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "BGL_lstm": {
+      "error": "name 'precision' is not defined",
+      "accuracy": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "f2": 0,
+      "roc_auc": 0.5,
+      "pr_auc": 0.5,
+      "confusion_matrix": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "BGL_cnn": {
+      "error": "name 'precision' is not defined",
+      "accuracy": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "f2": 0,
+      "roc_auc": 0.5,
+      "pr_auc": 0.5,
+      "confusion_matrix": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "BGL_bilstm_attention": {
+      "error": "name 'precision' is not defined",
+      "accuracy": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "f2": 0,
+      "roc_auc": 0.5,
+      "pr_auc": 0.5,
+      "confusion_matrix": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "HDFS_autoencoder": {
+      "error": "name 'precision' is not defined",
+      "accuracy": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "f2": 0,
+      "roc_auc": 0.5,
+      "pr_auc": 0.5,
+      "confusion_matrix": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "HDFS_lstm": {
+      "error": "name 'precision' is not defined",
+      "accuracy": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "f2": 0,
+      "roc_auc": 0.5,
+      "pr_auc": 0.5,
+      "confusion_matrix": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "HDFS_cnn": {
+      "error": "name 'precision' is not defined",
+      "accuracy": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "f2": 0,
+      "roc_auc": 0.5,
+      "pr_auc": 0.5,
+      "confusion_matrix": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "HDFS_bilstm_attention": {
+      "error": "name 'precision' is not defined",
+      "accuracy": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "f2": 0,
+      "roc_auc": 0.5,
+      "pr_auc": 0.5,
+      "confusion_matrix": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "Thunderbird_autoencoder": {
+      "error": "name 'precision' is not defined",
+      "accuracy": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "f2": 0,
+      "roc_auc": 0.5,
+      "pr_auc": 0.5,
+      "confusion_matrix": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "Thunderbird_lstm": {
+      "error": "name 'precision' is not defined",
+      "accuracy": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "f2": 0,
+      "roc_auc": 0.5,
+      "pr_auc": 0.5,
+      "confusion_matrix": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "Thunderbird_cnn": {
+      "error": "name 'precision' is not defined",
+      "accuracy": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "f2": 0,
+      "roc_auc": 0.5,
+      "pr_auc": 0.5,
+      "confusion_matrix": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "Thunderbird_bilstm_attention": {
+      "error": "name 'precision' is not defined",
+      "accuracy": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "f2": 0,
+      "roc_auc": 0.5,
+      "pr_auc": 0.5,
+      "confusion_matrix": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    }
+  }
+}

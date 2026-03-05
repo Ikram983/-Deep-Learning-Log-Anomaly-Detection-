@@ -1,0 +1,98 @@
+{
+  "BGL_autoencoder": {
+    "accuracy": 0.05,
+    "precision": 1.0,
+    "recall": 0.05,
+    "f1": 0.09523809523809523,
+    "roc_auc": NaN,
+    "pr_auc": 0.9999999999999998
+  },
+  "BGL_lstm": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "roc_auc": NaN,
+    "pr_auc": 1.0
+  },
+  "BGL_cnn": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "roc_auc": NaN,
+    "pr_auc": 1.0
+  },
+  "BGL_bilstm_attention": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "roc_auc": NaN,
+    "pr_auc": 1.0
+  },
+  "HDFS_autoencoder": {
+    "accuracy": 0.0475,
+    "precision": 1.0,
+    "recall": 0.0475,
+    "f1": 0.09069212410501193,
+    "roc_auc": NaN,
+    "pr_auc": 1.0
+  },
+  "HDFS_lstm": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "roc_auc": NaN,
+    "pr_auc": 1.0
+  },
+  "HDFS_cnn": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "roc_auc": NaN,
+    "pr_auc": 1.0
+  },
+  "HDFS_bilstm_attention": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "roc_auc": NaN,
+    "pr_auc": 1.0
+  },
+  "Thunderbird_autoencoder": {
+    "accuracy": 0.035,
+    "precision": 1.0,
+    "recall": 0.035,
+    "f1": 0.06763285024154589,
+    "roc_auc": NaN,
+    "pr_auc": 1.0
+  },
+  "Thunderbird_lstm": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "roc_auc": NaN,
+    "pr_auc": 1.0
+  },
+  "Thunderbird_cnn": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "roc_auc": NaN,
+    "pr_auc": 1.0
+  },
+  "Thunderbird_bilstm_attention": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "roc_auc": NaN,
+    "pr_auc": 1.0
+  }
+}
